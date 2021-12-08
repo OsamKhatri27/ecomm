@@ -1,0 +1,81 @@
+.header {
+  background-color: rgb(204, 198, 198);
+  height: 60px;
+}
+.logo {
+  float: left;
+  background-color: rgb(204, 198, 198);
+  width: 1000px;
+}
+
+.menu {
+  float: right;
+  padding: 15px;
+  height: 30px;
+  width: 420px;
+  background-color: rgb(204, 198, 198);
+}
+.loginbutton {
+  padding-bottom: 20px;
+  height: 50px;
+  width: 100px;
+  margin-left: 1px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgb(58, 57, 57);
+}
+.textarea {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(58, 57, 57);
+}
+.image {
+  border-radius: 10px;
+}
+.logoimage {
+  border-radius: 8px;
+  height: 53px;
+  margin-left: 5px;
+  margin-top: 2px;
+  width: 180px;
+}
+.navig {
+  background-color: rgb(204, 198, 198);
+  height: 52px;
+  border: solid 1px rgb(250, 249, 249);
+}
+.navbutton {
+  margin-top: 0px;
+  height: 40px;
+  width: 100px;
+  margin-left: 1px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgb(58, 57, 57);
+  color: rgb(255, 255, 255);
+  background-color: rgb(141, 128, 128);
+}
+.center {
+  margin: auto;
+  width: 500px;
+  padding: 10px;
+  height: 48px;
+}
+.footer {
+  background-color: rgb(204, 198, 198);
+  height: 400px;
+}
+.horizontalsscroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 350px;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+}
+div.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-left: 55px;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
